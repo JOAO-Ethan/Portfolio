@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'Nasalization';
+	src: url('fonts/nasalization/nasalization-rg.otf') format("opentype");
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+main {
+	flex: 1;	
+}
+
+footer.footer {
+	background-color: #365953;
+	color: white;
+}
+
+footer.footer>div>div>div>a{
+	color : white;
+}
+
+footer.footer>div>div>div>a:hover{
+	color : #84d9c9;
+}
+
+#titre {
+	padding-top: 15%;
+}
+#titre h1{
+	font-size: 5rem;
+}
+
+#titre h2{
+	font-size: 3rem;
+}
+
+.tile.is-child{
+	background-color: #5a948a;
+	border-radius: 6px;
+}
+
+.soustitre{
+	font-family: 'Nasalization';
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #84d9c9;
+}
+
+#icones{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+#nom{
+	color: white;
+	font-size: 1.15rem;
+	text-align: right;
+}
+
+#infos{
+	align-self: center;
+	color: white;
+	font-size: 1.15rem;
+	display: flex;
+	justify-content:center;
+	padding-bottom: 1%;
+}
+
+#contenu{
+	text-align: left;
+	font-size: 1.15rem;
+	color: #84d9c9;
+	min-width: fit-content;
+}
+
+#contenu li a{
+	color : #365953;
+}
+
+#contenu li a:hover{
+	color: #84d9c9;
+}
+
+#cv{
+	margin-top: 2%;
+	margin-bottom: 1rem;
+	color: #84d9c9;
+	background-color: #365953;
+	padding : 0.75%;
+	border-radius: 6px;
+	align-self: center;
+}
+
+@media screen and (max-width: 1023px){
+	#cv{
+		margin-top : 10%;
+	}
+	#infos{
+		margin-top : 10%;
+	}
+	
+	.skill.langues li{
+		font-size: 1.15rem;
+		min-width: fit-content;
+		margin-bottom: 5%;
+	}
+}
+
+#cv:hover{
+	background-color: #84d9c9;
+	color:#365953;
+}
+
+#desc{
+	color : #84d9c9;
+	font-size: 1.15rem;
+	padding-bottom: 1%;
+	padding-right: 1%;
+}
+
+#desc a{
+	color: #365953;
+}
+
+#desc a:hover{
+	color : white;
+}
+
+.formation{
+margin-left: 5%;
+color: #84d9c9;
+font-size: 1.15rem;
+margin-bottom: 2%;
+}
+
+.formation h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: underline;
+	color : #365953;
+}
+
+.formation h4{
+	font-size: 1.15em;
+	font-weight: light;
+}
+
+.formation:hover{
+	font-size: 1.25rem;
+	color: #365953; 
+}
+
+.skill{
+	font-size: 1.25rem;
+	padding: 2%;
+	color: #365953;
+}
+
+.skill i{
+	font-size: 1.75rem;
+}
+
+.soustitre.comp{
+	text-align: center;
+}
+
+#langues i{
+	font-size: 1.5rem;
+}
+
+.skill.langues{
+	font-size: 1.5rem;
+}

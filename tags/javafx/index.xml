@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaFX on Ethan JOAO</title>
+    <link>https://joao-ethan.github.io/Portfolio/tags/javafx/</link>
+    <description>Recent content in JavaFX on Ethan JOAO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 02 Jan 2023 16:13:12 +0100</lastBuildDate><atom:link href="https://joao-ethan.github.io/Portfolio/tags/javafx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zelda</title>
+      <link>https://joao-ethan.github.io/Portfolio/projects/zelda/</link>
+      <pubDate>Mon, 02 Jan 2023 16:13:12 +0100</pubDate>
+      
+      <guid>https://joao-ethan.github.io/Portfolio/projects/zelda/</guid>
+      <description>&lt;p&gt;Ceci est un projet personnel en cours consistant en la réalisation d&amp;rsquo;un jeu en JavaFX inspiré du premier opus de &lt;em&gt;The legend of Zelda&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Projet Geode</title>
+      <link>https://joao-ethan.github.io/Portfolio/projects/geode/</link>
+      <pubDate>Fri, 23 Dec 2022 15:38:51 +0100</pubDate>
+      
+      <guid>https://joao-ethan.github.io/Portfolio/projects/geode/</guid>
+      <description>&lt;p&gt;Ceci est un projet personnel en cours consistant en la réalisation d&amp;rsquo;une base de donnée pour l&amp;rsquo;organisation de collections minéralogiques.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
